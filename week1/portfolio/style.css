@@ -20,7 +20,7 @@ h1.top-text {
 }
 h2.blurb {
     position: relative;
-    right: -800px;
+    right: -630px;
     font-size: 35px;
 }
 #main-box {
@@ -41,7 +41,7 @@ h2.blurb {
 }
 #container div.about-section {
   width: 700px;
-  background-color: aliceblue;
+  background-color: snow;
 }
 div.about-section div.banner {
     min-height: 50px;
@@ -64,16 +64,31 @@ div.bottom div.bottom-block {
     display: inline-block;
     vertical-align: top;
     min-height: 870px;
-    width: 400px;
-    margin-left: 40px;
+    width: 433px;
+    margin: 10px;
     outline: 3px solid white;
+    background-color: snow;
 }
 div.bottom-block div.bottom-banner {
     min-height: 70px;
     background-color: silver;
 }
+div.bottom-block p {
+    font-size: 27px;
+}
+div.bottom-block div.skills {
+    min-height: 210px;
+    /* outline: 2px solid black; */
+}
+div.skills img {
+    /* outline: 2px solid black; */
+    margin: 8px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
 button {
     position: relative;
-    bottom: -235px;
-    left: 150px;
+    bottom: -25px;
+    left: 160px;
 }
