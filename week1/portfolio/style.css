@@ -4,7 +4,7 @@
 
 #container {
   background-color: rgba(108, 90, 99, 0.851);
-  min-height: 1500px;
+  min-height: 1568px;
   /* height: 1300px; */
   width: 1400px;
 }
@@ -113,4 +113,27 @@ button a {
 button.family {
     position: relative;
     left: 100px;
+}
+.footer {
+    min-height: 100px;
+    width: 1400px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+}
+.footer ul li img{
+	width: 40px;
+	vertical-align: middle;
+    margin: 4px;
+    /* font-size: 15px; */
+    /* list-style-type: none; */
+}
+.footer ul li a {
+    font-size: 25px;
+}
+.img-list{
+	list-style-type: none;
+	padding: 0;
+}
+.img-list li{
+	display: inline;
 }
