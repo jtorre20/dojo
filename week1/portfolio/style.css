@@ -3,14 +3,14 @@
 } */
 
 #container {
-  background-color: rgba(80, 20, 80, 0.632);
+  background-color: rgba(108, 90, 99, 0.851);
   min-height: 1500px;
   /* height: 1300px; */
   width: 1400px;
 }
 #header {
   min-height: 50px;
-  background-color: silver;
+  background-color: rgb(246, 246, 246);
 }
 #header .top-text{
     display: inline-block;
@@ -71,7 +71,10 @@ div.bottom div.bottom-block {
 }
 div.bottom-block div.bottom-banner {
     min-height: 70px;
-    background-color: silver;
+    background-color: rgb(139,138,150);
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
 }
 div.bottom-block p {
     font-size: 27px;
@@ -87,8 +90,27 @@ div.skills img {
     top: 15px;
     left: 20px;
 }
+button:hover {
+    background-color: rgb(103, 235, 108); /* Green */
+    color: white;
+  }
 button {
     position: relative;
-    bottom: -25px;
-    left: 160px;
+    bottom: 10px;
+    left: 137px;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    /* color: white; */
+    
+}
+button a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+}
+button.family {
+    position: relative;
+    left: 100px;
 }
