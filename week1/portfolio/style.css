@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 3px dotted black;
-}
+} */
 
 #container {
   background-color: rgba(80, 20, 80, 0.632);
@@ -20,7 +20,8 @@ h1.top-text {
 }
 h2.blurb {
     position: relative;
-    right: -900px;
+    right: -800px;
+    font-size: 35px;
 }
 #main-box {
   min-height: 1175px;
@@ -65,7 +66,14 @@ div.bottom div.bottom-block {
     min-height: 700px;
     width: 400px;
     margin-left: 40px;
+    outline: 3px solid white;
 }
 div.bottom-block div.bottom-banner {
     min-height: 50px;
+    background-color: silver;
+}
+button {
+    position: relative;
+    bottom: -100px;
+    left: 150px;
 }
