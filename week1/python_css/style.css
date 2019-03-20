@@ -1,0 +1,24 @@
+* {
+    /* outline: 2px solid black; */
+}
+#wrapper {
+    outline: 10px dotted rgb(255, 0, 0);
+    min-height: 1375px;
+    width: 1600px;
+    margin: 15px;
+}
+#bluebox {
+    outline: 10px solid blue;
+    min-height: 800px;
+    width: auto;
+}
+#middlebox {
+    outline: 10px double green;
+    min-height: 400px;
+    width: auto;
+}
+#footer {
+    outline: 10px ridge rgb(212, 0, 255);
+    min-height: 160px;
+    width: auto;
+}
