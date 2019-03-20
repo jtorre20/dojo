@@ -1,31 +1,54 @@
 * {
-    outline: 3px dotted black;
+  outline: 3px dotted black;
 }
 
 #container {
-    /* background-color: red; */
-    min-height: 1300px;
-    /* height: 1300px; */
-    width: 1400px;
+  background-color: rgba(80, 20, 80, 0.632);
+  min-height: 1300px;
+  /* height: 1300px; */
+  width: 1400px;
 }
 #header {
-    min-height: 100px;
+  min-height: 50px;
+  background-color: silver;
+}
+#header .top-text{
+    display: inline-block;
+}
+h1.top-text {
+    font-size: 50px;
+}
+h2.blurb {
+    position: relative;
+    right: -900px;
 }
 #main-box {
-    min-height: 1175px;
+  min-height: 1175px;
 }
 .top {
-    min-height: 400px;
+  min-height: 400px;
 }
 #container div.block {
-    display: inline-block;
-    vertical-align: top;
-    min-height: 375px;
-    width: 600px;
-    padding: 10px;
-    margin: 10px
+  display: inline-block;
+  vertical-align: top;
+  min-height: 375px;
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+  background-color: silver;
 }
 #container div.about-section {
-    width: 700px
+  width: 700px;
 }
-
+.bottom {
+    min-height: 700px;
+    margin: 15px;
+}
+div.bottom div.bottom-block {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 700px;
+    width: 400px;
+    margin-left: 40px;
+}
