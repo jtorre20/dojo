@@ -4,6 +4,9 @@
 
 #container {
   background-color: rgba(108, 90, 99, 0.851);
+/* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+ rgba(173,41,130,1) 35%); */
   min-height: 1568px;
   /* height: 1300px; */
   width: 1400px;
