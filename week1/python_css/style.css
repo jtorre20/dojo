@@ -4,7 +4,8 @@
 #wrapper {
     /* outline: 10px dotted rgb(255, 0, 0); */
     min-height: 1375px;
-    width: 1600px;
+    /* width: 1600px; */
+    width: auto;
     margin: 15px;
 }
 
@@ -34,7 +35,7 @@ h3 {
     display: inline;
     position: relative;
     top: -135px;
-    left: 585px;
+    left: 1000px;
 }
 h3 a {
     color: gold;
@@ -45,9 +46,10 @@ h3.bar {
 }
 div.searchbar {
     display: inline-block;
-    position: relative;
+    margin-left: 28%;
+    /* position: relative;
     top: -40px;
-    right: -135px;
+    right: -135px; */
     border-width: 25px 60px 25px 60px;
     border-radius: 25px;
     border-style: solid;
@@ -72,7 +74,8 @@ div.searchbar button {
 .navbar {
     /* outline: 10px dotted white; */
     min-height: 70px;
-    width: 1330px;
+    width: 1800px;
+    margin-top: 3%;
     margin-left: 130px;
     background-color: rgb(83, 127, 169);
     border-radius: 20px;
@@ -82,8 +85,8 @@ div.searchbar button {
 div.navbar a {
     color: white;
     text-decoration: none;
-    padding: 15px;
-    font-size: 45px;
+    padding: 33px;
+    font-size: 55px;
     font-weight: 100;
     /* margin-top: 10px; */
 }
@@ -124,7 +127,7 @@ ul {
 p.blurb {
     width: 60%;
     margin-left: 35%;
-    margin-top: -23%;
+    margin-top: -19%;
     color: white;
     text-align: center;
     font-weight: 100;
