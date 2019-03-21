@@ -27,6 +27,22 @@
     margin-left: 50px;
     margin-top: 20px;
 }
+h3 {
+    color: white;
+    font-weight: 100;
+    display: inline;
+    position: relative;
+    top: -135px;
+    left: 585px;
+}
+h3 a {
+    color: gold;
+    font-weight: 100;
+}
+h3.bar {
+    color: black;
+}
+
 
 #middlebox {
     /* outline: 10px double green; */
