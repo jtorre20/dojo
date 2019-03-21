@@ -104,7 +104,7 @@ ul {
     left: -20px;
     transform: translateY(-50%) rotate(-45deg);
  }
- ul li {
+ ul li.arrow {
     position: relative;
     padding-bottom: 10px;
     color: white;
@@ -121,6 +121,27 @@ ul {
     margin-top:40px;
 } */
 
+p.blurb {
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -23%;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+/* SECOND LIST */
+div.second-list ul li {
+    margin-left: 30%;
+    color: gold;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    /* text-decoration:  */
+}
+ul.list2 li.python {
+    color: white;
+}
 
 #middlebox {
     /* outline: 10px double green; */
