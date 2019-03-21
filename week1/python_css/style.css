@@ -26,6 +26,7 @@
     min-height: 80px;
     margin-left: 50px;
     margin-top: 20px;
+    display: inline-block;
 }
 h3 {
     color: white;
@@ -41,6 +42,29 @@ h3 a {
 }
 h3.bar {
     color: black;
+}
+div.searchbar {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    right: -135px;
+    border-width: 25px 60px 25px 60px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(63, 63, 63);
+    box-shadow: 10px 10px 8px #222222;
+}
+input.search {
+    width: 300px;
+    height: 55px;
+    margin-right: 5px;
+    text-align: center;
+}
+div.searchbar button {
+    background-color: rgb(45, 79, 114);
+    color: white;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px white;
 }
 
 
