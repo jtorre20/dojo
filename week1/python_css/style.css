@@ -2,23 +2,42 @@
     /* outline: 2px solid black; */
 }
 #wrapper {
-    outline: 10px dotted rgb(255, 0, 0);
+    /* outline: 10px dotted rgb(255, 0, 0); */
     min-height: 1375px;
     width: 1600px;
     margin: 15px;
 }
+
+/* MAINBOX RULESETS */
 #bluebox {
-    outline: 10px solid blue;
+    /* outline: 10px solid blue; */
+    background-color: rgb(45, 79, 114);
     min-height: 800px;
     width: auto;
 }
+
+.header {
+    outline: 10px dotted black;
+    min-height: 200px;
+    width: auto;
+}
+.python-img {
+    /* outline: 10px dotted white; */
+    min-height: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
 #middlebox {
-    outline: 10px double green;
+    /* outline: 10px double green; */
     min-height: 400px;
     width: auto;
 }
 #footer {
-    outline: 10px ridge rgb(212, 0, 255);
+    /* outline: 10px ridge rgb(212, 0, 255); */
+    background: rgb(2,0,36);
     min-height: 160px;
+    background: rgb(86,125,164);
+background: linear-gradient(180deg, rgba(86,125,164,1) 0%, rgba(2,0,36,1) 100%);
     width: auto;
 }
