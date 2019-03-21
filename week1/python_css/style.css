@@ -12,7 +12,7 @@
 #bluebox {
     /* outline: 10px solid blue; */
     background-color: rgb(45, 79, 114);
-    min-height: 800px;
+    min-height: 900px;
     width: auto;
 }
 
@@ -137,6 +137,7 @@ div.second-list ul li {
     font-style: italic;
     font-weight: 100;
     text-align: center;
+    padding: 7px;
     /* text-decoration:  */
 }
 ul.list2 li.python {
