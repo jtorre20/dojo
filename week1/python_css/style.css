@@ -17,7 +17,7 @@
 }
 
 .header {
-    outline: 10px dotted black;
+    /* outline: 10px dotted black; */
     min-height: 200px;
     width: auto;
 }
@@ -66,6 +66,60 @@ div.searchbar button {
     padding: 15px;
     box-shadow: 2px 2px 2px 2px white;
 }
+
+/* NAVBAR */
+
+.navbar {
+    /* outline: 10px dotted white; */
+    min-height: 70px;
+    width: 1330px;
+    margin-left: 130px;
+    background-color: rgb(83, 127, 169);
+    border-radius: 20px;
+    padding-left: 50px;
+    box-shadow: 8px 8px 5px black;
+}
+div.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 45px;
+    font-weight: 100;
+    /* margin-top: 10px; */
+}
+/* LIST ITEM */
+
+ul {
+    list-style: none;
+    margin-top: 3%;
+  }
+  ul li:before{
+    content: '';
+    position: absolute;
+    border-right:2px solid gold;
+    border-bottom:2px solid gold;
+    width:10px;
+    height:10px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+ }
+ ul li {
+    position: relative;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: underline;
+    margin-left: 10%;
+    margin-top: .5%;
+  }
+  /* .arrow {
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    width:10px;
+    height:10px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+} */
 
 
 #middlebox {
