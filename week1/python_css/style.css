@@ -1,11 +1,17 @@
 * {
     /* outline: 2px solid black; */
+    margin: 0px auto;
+}
+
+html{
+    width: 970px;
+    /* margin: 0px auto; */
 }
 #wrapper {
     /* outline: 10px dotted rgb(255, 0, 0); */
     min-height: 1375px;
     /* width: 1600px; */
-    width: auto;
+    /* width: auto; */
     margin: 15px;
 }
 
@@ -14,28 +20,31 @@
     /* outline: 10px solid blue; */
     background-color: rgb(45, 79, 114);
     min-height: 900px;
-    width: auto;
+    /* width: 970px; */
 }
 
 .header {
     /* outline: 10px dotted black; */
-    min-height: 200px;
+    min-height: 100px;
     width: auto;
 }
 .python-img {
     /* outline: 10px dotted white; */
-    min-height: 80px;
+    min-height: 10px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
     display: inline-block;
+    width: 255px;
+    height: 72px;
 }
 h3 {
     color: white;
     font-weight: 100;
     display: inline;
     position: relative;
-    top: -135px;
-    left: 1000px;
+    top: -95px;
+    left: 400px;
+    font-size: 15px;
 }
 h3 a {
     color: gold;
@@ -46,19 +55,21 @@ h3.bar {
 }
 div.searchbar {
     display: inline-block;
-    margin-left: 28%;
+    margin-left: 90px;
+    position: absolute;
+    top: 50px;
     /* position: relative;
     top: -40px;
     right: -135px; */
-    border-width: 25px 60px 25px 60px;
+    border-width: 15px 60px 15px 40px;
     border-radius: 25px;
     border-style: solid;
     border-color: rgb(63, 63, 63);
     box-shadow: 10px 10px 8px #222222;
 }
 input.search {
-    width: 300px;
-    height: 55px;
+    width: 185px;
+    height: 35px;
     margin-right: 5px;
     text-align: center;
 }
@@ -74,9 +85,9 @@ div.searchbar button {
 .navbar {
     /* outline: 10px dotted white; */
     min-height: 70px;
-    width: 1800px;
-    margin-top: 3%;
-    margin-left: 130px;
+    width: 750px;
+    margin-top: 1%;
+    margin-left: 80px;
     background-color: rgb(83, 127, 169);
     border-radius: 20px;
     padding-left: 50px;
@@ -85,16 +96,18 @@ div.searchbar button {
 div.navbar a {
     color: white;
     text-decoration: none;
-    padding: 33px;
-    font-size: 55px;
+    padding: 20px;
+    font-size: 20px;
     font-weight: 100;
+    position: relative;
+    top: 25px;
     /* margin-top: 10px; */
 }
 /* LIST ITEM */
 
 ul {
     list-style: none;
-    margin-top: 3%;
+    margin-top: 5%;
   }
   ul li:before{
     content: '';
@@ -131,16 +144,18 @@ p.blurb {
     color: white;
     text-align: center;
     font-weight: 100;
+    font-size: 20px;
 }
 /* SECOND LIST */
 div.second-list ul li {
     margin-left: 30%;
     color: gold;
-    font-size: 35px;
+    font-size: 40px;
     font-style: italic;
     font-weight: 100;
     text-align: center;
     padding: 7px;
+    
     /* text-decoration:  */
 }
 ul.list2 li.python {
