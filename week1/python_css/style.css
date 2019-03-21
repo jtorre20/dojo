@@ -19,7 +19,7 @@ html{
 #bluebox {
     /* outline: 10px solid blue; */
     background-color: rgb(45, 79, 114);
-    min-height: 900px;
+    min-height: 670px;
     /* width: 970px; */
 }
 
@@ -105,7 +105,7 @@ div.navbar a {
 }
 /* LIST ITEM */
 
-ul {
+div.list ul {
     list-style: none;
     margin-top: 5%;
   }
@@ -116,7 +116,7 @@ ul {
     border-bottom:2px solid gold;
     width:10px;
     height:10px;
-    top: calc(50% - 4px);
+    top: calc(50% - 8px);
     left: -20px;
     transform: translateY(-50%) rotate(-45deg);
  }
@@ -150,7 +150,7 @@ p.blurb {
 div.second-list ul li {
     margin-left: 30%;
     color: gold;
-    font-size: 40px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 100;
     text-align: center;
@@ -158,20 +158,61 @@ div.second-list ul li {
     
     /* text-decoration:  */
 }
+div ul.list2 {
+    list-style-type: none;
+}
 ul.list2 li.python {
     color: white;
 }
 
 #middlebox {
     /* outline: 10px double green; */
-    min-height: 400px;
+    min-height: 270px;
     width: auto;
+    margin-top: 15px;
+}
+
+.box {
+    /* outline: 7px dotted red; */
+    display: inline-block;
+    min-height: 250px;
+    width: 250px;
+    margin-left: 60px;
+    border-top: 4px solid rgb(125, 167, 209);
+    margin-top: -7px;
+    text-align: center;
+    vertical-align: top;
+}
+div.box.first {
+    margin-left: 150px;
+}
+div.box.second {
+    margin-bottom: -20px;
+    /* position: relative; */
+    /* top: 19px; */
+}
+div.box ul li {
+    color: rgb(125, 167, 209);
+    list-style-type: disc;
 }
 #footer {
     /* outline: 10px ridge rgb(212, 0, 255); */
     background: rgb(2,0,36);
-    min-height: 160px;
+    min-height: 90px;
     background: rgb(86,125,164);
-background: linear-gradient(180deg, rgba(86,125,164,1) 0%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(180deg, rgba(86,125,164,1) 0%, rgba(2,0,36,1) 100%);
     width: auto;
+}
+div#footer ul {
+    margin-left: 105px;
+    font-size: 20px;
+    color: white;
+    /* position: relative; */
+    /* top: 20px; */
+}
+div#footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    text-align: center;
 }
