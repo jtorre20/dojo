@@ -9,7 +9,7 @@
     margin-top: 5px;
 }
 div.globe {
-    outline: 5px dotted red;
+    /* outline: 5px dotted red; */
     display: inline-block;
     width: 500px;
 }
@@ -22,4 +22,25 @@ div.globe h2 {
     vertical-align: top;
     margin-top: 20px;
     font-size: 40px
+}
+
+/* MAIN BODY */
+
+div#wrapper div.main-body {
+    outline: 5px dotted blue;
+    /* width: 500px; */
+    min-height: 910px;
+}
+div.main-body h1 {
+    /* outline: 3px dotted blueviolet; */
+    background-color: rgb(86, 128, 167);
+    color: white;
+    min-height: 65px;
+}
+/* SIDEBAR */
+div.sidebar {
+    outline: 3px dotted red;
+    min-height: 400px;
+    width: 200px;
+    margin-left: 1px;
 }
