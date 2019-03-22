@@ -1,0 +1,11 @@
+*{
+    outline: 10px solid dotted;
+    margin: 0px auto;
+    width: 970px;
+}
+
+#wrapper {
+    outline: 10px dotted black;
+    width: 970px;
+    height: 1100px;
+}
