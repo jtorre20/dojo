@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                var expr = this.classList;
+
+                switch(expr.value ) {
+                    case "add":
+                        $('p.add').addClass("red");
+                        break;
+                    case "slide":
+                        $('img.ninja').slideToggle("slow", function () {
+                            console.log()
+                        });
+                        break;
+                    case "append":
+                        $('div.append').append("<p>Test<p>")
+                          console.log( $('div.append').text())
+                        break;
+                    case "hide":
+                        $('p.hide').toggle(function () {
+                            $('p.hide').hide()
+                        })
+                        break;
+                    // })
+                    case "show": 
+                    $('div.show').append("<img class='show' src='ninja.png'>")
+                    $('img') ? $('button.show').html("Hide") : $('button.show').html("Unhide")
+                    $('div.show').after("<button class='hide'>Hide</button>")
+                    $('button.show').click(function(){
+                        $('img.show').hide()
+                    })
+                    
+                }
+            })
+        })
+        
+    </script>
+</head>
+<body>
+   
+<div id="container">
+    <div class="functions add">
+        <h1>Add Class</h1>
+        <button class="add">Add Class</button>
+        <p class="add">Click the button to add class 'red' to this paragraph</p>
+    </div>
+    <div class="functions slide">
+        <h1>Slide Toggle</h1>
+        <button class="slide">Slide Toggle</button>
+        <p class="slide">Click the button to slidetoggle a hidden image</p>
+        <img class="ninja" src="ninja.png" alt="ninja image" width="100" height="123">
+    </div>
+    <div class="functions append">
+        <h1>Append</h1>
+        <button class="append">Append</button>
+        <p class="append">Click the button to append a new paragraph</p>
+       
+    </div>
+    <div class="functions hide">
+        <h1>Hide</h1>    
+        <button class="hide">Hide</button>
+        <p class="hide">Hiding this paragraph</p>
+    </div>
+    <div class="functions show">
+        <h1>Show</h1>    
+        <button class="show">show</button>
+        <p class="show">Click to show image</p>
+    </div>
+
+</div>
+</body>
+</html>

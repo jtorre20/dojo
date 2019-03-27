@@ -44,3 +44,6 @@ div.sidebar {
     width: 200px;
     margin-left: 1px;
 }
+div.sidebar p {
+    font-weight: 700
+}

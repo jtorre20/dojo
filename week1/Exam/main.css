@@ -1,0 +1,193 @@
+
+#wrapper {
+    outline: 15px dotted black;
+    margin: 0px auto;
+    /* width: 0px auto; */
+    width: 970px;
+    height: 1150px;
+}
+div.header {
+    /* outline: 5px dotted red; */
+    background-color: rgb(25, 25, 25);
+    /* background-color: black; */
+    /* min-height: 50px; */
+}
+div.header img {
+    margin-top: 40px;
+    outline: 0px solid rgb(25, 25, 25);
+    /* background-color: black; */
+}
+div.header h2 {
+    display: inline-block;
+    margin-left: 825px;
+    vertical-align: top;
+    margin-top: -50px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+
+/*MIDDLEBOX */
+
+div.middlebox {
+    /* outline: 5px dotted blue; */
+    min-height: 400px;
+}
+div.middlebox img {
+    width: 970px
+}
+.navbar {
+    min-height: 50px;
+    background-color: rgb(63, 63, 63);
+    padding-left: 30px;
+}
+div.navbar a {
+    color: rgb(147, 155, 160);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+    /* margin-top: 10px; */
+}
+div.navbar a:hover {
+    color: rgb(210, 205, 205);
+}
+
+/* OPTIONS BOX */
+
+div.optionsbox {
+    /* outline: 5px dotted red; */
+    margin-top: -5px;
+    min-height: 120px;
+    background-color: rgb(25, 25, 25);
+}
+div.option {
+    display: inline-block;
+    /* outline: 5px solid green; */
+    width: 200px;
+    min-height: 100px;
+    margin: 15px;
+    font-size: 15px;
+    vertical-align: top;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    /* text-align: initial; */
+}
+
+div.optionsbox div.first {
+    margin-left: 35px
+}
+div.optionsbox div.block h3 {
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(225, 129, 63);
+}
+div.option img {
+    vertical-align: top;
+}
+div.option p {
+    margin-left: 50px;
+    margin-top: -13px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+/* BUY NOW BOX */
+
+div.buynow-box {
+    /* outline: 5px dotted red; */
+    min-height: 120px;
+    margin-top: -22px;
+    color: white;
+    background-color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+div.buynow-box h2 {
+    margin-left: 35px;
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    /* margin-top: 30px; */
+}
+div.buynow-box p {
+    margin-left: 35px;
+    width: 600px;
+    font-size: 12px;
+
+}
+div.buynow-box button {
+    margin-left: 820px;
+    /* margin-bottom: 70px */
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(229, 147, 86);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px; 
+    font-size: 15px;
+}
+div.buynow-box button:hover {
+    background-color: rgb(225, 191, 166)
+}
+/* BOTTOM BOX */
+
+div.bottom-box {
+    background-color: rgb(26, 26, 26);
+    min-height: 270px;
+}
+
+div.bottom-box .text {
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+div.bottom-box h3 {
+    margin-left: 25px;
+    color: white;
+}
+div.bottom-box a {
+    margin-left: 700px;
+    color: rgb(229, 147, 86);
+    font-style: italic;
+    text-decoration: none;
+}
+div.bottom-box a:hover {
+    color: rgb(227, 110, 22);
+}
+div.project {
+    /* outline: 5px solid red; */
+    width: 210px;
+    min-height: 270px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 55px;
+    color: white;
+}
+div.project:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=100);
+}
+div.project.first {
+    margin-left: 25px;
+}
+div.project img{
+    border: 5px solid rgb(54, 54, 54);
+}
+div.project h4 {
+    color: rgb(229, 147, 86);
+    margin: unset
+}
+
+div.project p {
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    padding-top: -5px;
+    width: 219px
+    /* margin: unset; */
+}
+
